@@ -10,6 +10,12 @@ export PORT=8888
 ./rawlab
 ```
 
+or with docker:
+
+```bash
+docker run --rm -p 8625:8625 -e GITLAB_API=https://gitlab.com/api/v4 quay.io/oott123/rawlab:master
+```
+
 ## Get
 
 ### Without Authorization
