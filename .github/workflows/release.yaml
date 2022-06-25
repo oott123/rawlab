@@ -2,13 +2,8 @@ name: goreleaser
 
 on:
   push:
-    branches:
-      - '**'
     tags:
       - 'v*.*.*'
-    paths-ignore:
-      - '/README.md'
-      - '/TODO.md'
 
 permissions:
   contents: write
